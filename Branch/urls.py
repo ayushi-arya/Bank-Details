@@ -7,4 +7,4 @@ from django.conf.urls import url, include
      url(r'^branches/(?P<city>.*)/(?P<bank>.*)$', ListView.as_view())
  }
 
- urlpatterns = format_suffix_patterns(urlpatterns
+ urlpatterns = format_suffix_patterns(urlpatterns)
